@@ -17,3 +17,8 @@ A standard infrared LED is soldered to a 3.5mm jack connector. IR control requir
 
 ### Dummy Arduino device controlled via USB
 This method is less convenient as it requires a dedicated USB port and power for the Arduino. However, it was useful during the debugging stage. The code for this is in the `arduino_ir` folder.
+
+### Usage
+The `light.sh` script contains several useful functions for my NO_NAME lamp, such as `light_night_mode`. It's likely that your remote device will have different address and command codes.
+
+These commands were recorded using the Arduino package [LogicAnalyzer](https://github.com/gillham/logic_analyzer) along with the PulseView GUI.
